@@ -1,1 +1,1 @@
-Unofficial beamer theme of Saarland University. Both the images and fonts used in this project are taken from the website of Saarland University. The MIT license does not apply to those two folders. 
+Unofficial beamer theme for Saarland University. Both the images and fonts used in this project are taken from the website of Saarland University. The MIT license does not apply to those two folders. 
