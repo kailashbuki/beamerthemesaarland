@@ -1,0 +1,52 @@
+\documentclass[12pt]{beamer}
+\usetheme[
+	background=saarland,
+	logo=uds
+]{saarland}
+
+\graphicspath{{images/}}
+
+\author{Kailash Budhathoki}
+\title{Saarland Beamer Theme}
+\institute{Max Planck Institute for Informatics and Saarland University}
+\date{\today}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	\begin{frame}{Willkommen im Saarland!}
+	Saarland is a German state in the dynamic border triangle of Germany, France and Luxembourg. 
+		\begin{itemize}
+			\item Gro{\ss}es, \textit{big}
+			\item Studieren. Forschen. Gr{\"u}nden.	
+			\item \textbf{this is a bold text}
+			\item \alert{this is an alert}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{Blocks}
+		\begin{block}{Standard Block}
+			This is a standard block.
+		\end{block}
+		
+		\begin{exampleblock}{Example Block}
+			This is an example block.
+		\end{exampleblock}
+		
+		\begin{alertblock}{Alert Block}
+			This is an alert block.
+		\end{alertblock}
+	\end{frame}
+	
+	\begin{frame}{Math}
+		\begin{align*}
+			\Pr(Y \geq 120) &= \Pr\left(Y-n\mu \geq 120-n\mu \right)\\
+			&= \Pr\left( \frac{Y-n\mu }{\sqrt{n}\sigma} \geq \frac{120-n\mu }{\sqrt{n}\sigma} \right)\\
+			&=\Pr\left( Z \geq \frac{120-n\mu }{\sqrt{n}\sigma} \right)\\
+			&=\Pr\left( Z \geq \frac{120-100 \cdot 1 }{10 \cdot 1} \right)\\
+			&=\Pr\left( Z \geq 2\right)
+		\end{align*}
+	\end{frame}
+\end{document}

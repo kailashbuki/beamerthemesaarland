@@ -1,0 +1,15 @@
+\mode<presentation>
+
+\DeclareOptionBeamer{background}{\PassOptionsToPackage{background=#1}{beamerouterthemeSaarland}}
+\DeclareOptionBeamer{logo}{\PassOptionsToPackage{logo=#1}{beamerouterthemeSaarland}}
+\ProcessOptionsBeamer
+
+\usecolortheme{Saarland}	% calls beamercolorthemeSaarland.sty
+\usefonttheme{Saarland}		% calls beamerfontthemeSaarland.sty
+\useinnertheme{Saarland}	% calls beamerinnerthemeSaarland.sty
+\useoutertheme{Saarland}	% calls beamerouterthemeSaarland.sty
+
+\setbeamertemplate{navigation symbols}{} 	% turn off pdf navigation symbols
+
+\mode<all>
+\endinput

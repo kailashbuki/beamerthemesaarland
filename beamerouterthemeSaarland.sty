@@ -1,0 +1,38 @@
+\usepackage{tikz}
+
+\mode<presentation>
+
+\DeclareOptionBeamer{background}{\def\beamer@Saarland@background{#1}}
+\ExecuteOptionsBeamer{background=} % Default value is empty
+\DeclareOptionBeamer{logo}{\def\beamer@Saarland@logo{#1}}
+\ExecuteOptionsBeamer{logo=} % Default value is empty
+\ProcessOptionsBeamer
+
+% footer has a uds logo and shows page number only
+\setbeamertemplate{footline}
+{%
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=0.98\paperwidth,ht=2.25ex,dp=1ex,center]{pagenumber}%
+			\insertframenumber{}\hspace*{1ex}
+		\end{beamercolorbox}
+		\if \beamer@Saarland@logo\@empty
+		\else
+		\llap{\includegraphics[height=0.5cm]{\beamer@Saarland@logo}}
+		\fi
+	}%
+}
+
+% we insert the watermark background from the sidebar
+\setbeamertemplate{sidebar right}
+{
+	\if \beamer@Saarland@background\@empty
+	\else
+		\vskip.1\beamer@leftmargin%
+		\vfill%
+		\llap{\includegraphics[width=.5\paperwidth,height=.5\paperheight]{\beamer@Saarland@background}}
+	\fi
+}
+
+\mode<all>
+\endinput
