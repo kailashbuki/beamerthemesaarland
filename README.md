@@ -12,4 +12,8 @@ You have to install the [*Saar Pro* font](https://www.saarland.de/dokumente/res_
 
 How To Use It
 -------------
-Take a look at [`slides.tex`](https://github.com/kailashbuki/beamerthemesaarland/blob/master/slides.tex) file for inspiration.
+Take a look at [`slides.tex`](https://github.com/kailashbuki/beamerthemesaarland/blob/master/slides.tex) file for the inspiration.
+
+Contact
+-------
+Feel free to write me at [kailash.buki@gmail.com](mailto:kailash.buki@gmail.com).
