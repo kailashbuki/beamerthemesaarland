@@ -53,6 +53,7 @@
 	\end{frame}
 	
 	\begin{frame}{Math}
+		Mathematics is the queen of sciences and arithmetic is the queen of mathematics.
 		\begin{align*}
 			\Pr(Y \geq 120) &= \Pr\left(Y-n\mu \geq 120-n\mu \right)\\
 			&= \Pr\left( \frac{Y-n\mu }{\sqrt{n}\sigma} \geq \frac{120-n\mu }{\sqrt{n}\sigma} \right)\\
@@ -60,5 +61,28 @@
 			&=\Pr\left( Z \geq \frac{120-100 \cdot 1 }{10 \cdot 1} \right)\\
 			&=\Pr\left( Z \geq 2\right)
 		\end{align*}
+	\end{frame}
+
+	\begin{frame}{Two Columns}
+		We can also add two columns in the slides.
+		\begin{columns}[t]
+			\begin{column}[T]{0.4\textwidth}
+				This is the first column. In this column, we can also add a block for instance.
+				\vspace{1em}
+				\begin{block}{Block}
+					I am a block in a column.
+				\end{block}
+			\end{column}
+			\begin{column}[T]{0.4\textwidth}
+				\begin{itemize}
+					\item In this column,
+					\item we just add the
+					\item bullet points.
+				\end{itemize}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}{Acknowledgements}
+		This theme is inspired by Flip theme (creator: Flip Tanedo). The beamer user guide was also very handy during the development.
 	\end{frame}
 \end{document}
