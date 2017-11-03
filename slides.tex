@@ -1,18 +1,25 @@
+% the sample slide is created with 16:9 aspect ratio
 \documentclass[aspectratio=169]{beamer}
+
+% remove the options if you do not want to include them
 \usetheme[
 	background=saarland,
 	logo=uds
 ]{saarland}
 
+% the background and logo are in the images directory
 \graphicspath{{images/}}
 
+% information for title page
 \author{Kailash Budhathoki}
 \title{Saarland Beamer Theme}
+\subtitle{An unofficial theme for Saarland University}
 \institute{Max Planck Institute for Informatics and Saarland University}
 \date{\today}
 
 \begin{document}
-	\begin{frame}
+	% use plain option to remove the page number from the title slide
+	\begin{frame}[plain]
 		\titlepage
 	\end{frame}
 	
@@ -26,10 +33,12 @@
 			\item Studieren. Forschen. Gr{\"u}nden.	
 			\item \textbf{this is a bold text}
 			\item \alert{this is an alert}
+			\item italics is not supported at the moment (i am working on the hack)
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}{Blocks}
+		\framesubtitle{This is a subtitle}
 		\begin{block}{Standard Block}
 			This is a standard block.
 		\end{block}
