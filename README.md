@@ -1,6 +1,6 @@
 Saarland Beamer Theme
 ---------------------
-This is an unofficial beamer theme based on the colours of [Saarland University][sic-link]. If you have any questions or suggestions, feel free to write me at [my email](mailto:kailash.buki@gmail.com).
+This is an unofficial beamer theme based on the colours of [Saarland University][sic-link]. If you have any questions or suggestions, feel free to send me an [email](mailto:kailash.buki@gmail.com).
 
 **IMPORTANT**: Install the [Lato font][lato-font-link], and compile using LuaLaTeX or XeLaTeX. 
 
